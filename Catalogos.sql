@@ -63,17 +63,6 @@ INSERT INTO Proveedor (Compania, NombreProveedor, Direccion, Celular) VALUES ('S
 INSERT INTO Proveedor (Compania, NombreProveedor, Direccion, Celular) VALUES ('Samsung', 'Proveedor19', 'Direccion19', '1234567808');
 INSERT INTO Proveedor (Compania, NombreProveedor, Direccion, Celular) VALUES ('LG', 'Proveedor20', 'Direccion20', '1234567809');
 
-INSERT INTO FacturaCompra (ProveedorId, Fecha, Total) VALUES (1, '2023-01-01', 100.0);
-INSERT INTO FacturaCompra (ProveedorId, Fecha, Total) VALUES (2, '2023-01-02', 200.0);
-INSERT INTO FacturaCompra (ProveedorId, Fecha, Total) VALUES (3, '2023-01-03', 300.0);
-INSERT INTO FacturaCompra (ProveedorId, Fecha, Total) VALUES (4, '2023-01-04', 400.0);
-INSERT INTO FacturaCompra (ProveedorId, Fecha, Total) VALUES (5, '2023-01-05', 500.0);
-INSERT INTO FacturaCompra (ProveedorId, Fecha, Total) VALUES (6, '2023-01-06', 600.0);
-INSERT INTO FacturaCompra (ProveedorId, Fecha, Total) VALUES (7, '2023-01-07', 700.0);
-INSERT INTO FacturaCompra (ProveedorId, Fecha, Total) VALUES (8, '2023-01-08', 800.0);
-INSERT INTO FacturaCompra (ProveedorId, Fecha, Total) VALUES (9, '2023-01-09', 900.0);
-INSERT INTO FacturaCompra (ProveedorId, Fecha, Total) VALUES (10, '2023-01-10', 1000.0);
-
 INSERT INTO FacturaCompra (FechaCompra, ProveedorId) VALUES ('2023-01-01', 1);
 INSERT INTO FacturaCompra (FechaCompra, ProveedorId) VALUES ('2023-01-02', 2);
 INSERT INTO FacturaCompra (FechaCompra, ProveedorId) VALUES ('2023-01-03', 3);
